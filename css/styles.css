@@ -1,0 +1,242 @@
+/* For mobile phones: */
+body {
+    font-family: "Lucida Sans", Verdana, sans-serif;
+    font-size: 10px;
+    //width: 89.987854251012145748987854251012%;
+    width: 100%;
+    background-color: #364949;
+    margin: 0;
+    color: #383A3B;
+}
+
+.page img {
+    width: 80%;
+    //margin-bottom: 30px;
+}
+
+/*h1{
+    font-size: 1.625em;
+}*/
+a{
+    //font-size: 1.375em;
+    color: #71a914;//lightgreen;
+    //text-decoration: none;
+}
+
+p{
+    height: 100px;
+}
+
+h2{
+    //height: 80px;
+    height: 50px;
+}
+
+h3{
+    font-size: 1.375em;
+    //color: magenta;
+}
+
+div{
+    overflow: hidden;
+}
+
+#query {
+    width: 70%;
+    border-radius: 5px ;
+
+}
+
+#search {
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #cee138;
+    //background-color: #d8ee72;
+    //background-color: #d8ed66;
+}
+
+.searchbox {
+    padding: 1.0121457489878542510121457489879%;
+    background-color: #364949;
+    //border: 1px solid #e9e9e9;
+    text-align: center;
+}
+
+.page {
+    padding: 2.0661157024793388429752066115702%;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.description{
+    //background-color: #eee;
+    width: 99%;
+    height: 53px;
+    //border: 1px dotted black;
+    overflow: hidden;
+    font-size: 1.375em;
+}
+
+.pagination {
+    padding: 1.0121457489878542510121457489879%;
+    text-align: center;
+    //background-color: #f1f1f1;
+    background-color: #364949;
+    //border: 1px solid #e9e9e9;
+    //font-size: 0.625em;
+    display: inline-block;
+}
+
+/*.pagination {
+    display: inline-block;
+}*/
+
+.pagination a {
+    color: black;
+    float: left;
+    //padding: 8px 16px;
+    padding: 2px 4px;
+    //width: 4px;
+    //height: 4px;
+    font-size: 0.7em;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    //margin: 0 4px;
+    margin: 0 2px;
+    background-color: #5fa99a;//#8ec085;//lightblue;
+    border-radius: 50%;
+}
+
+.pagination a.active {
+    background-color: #b2d320;//#4CAF50;
+    color: white;
+    border: 1px solid #d8ee72;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #5fa9ff;
+}
+
+.gridcontainer {
+    width: 100%;
+}
+
+.gridwrapper {
+    overflow: hidden;
+}
+
+.gridbox {
+    //margin-bottom: 2.0242914979757085020242914979757%;
+    //margin-right: 2.0242914979757085020242914979757%;
+    margin: 2.0242914979757085020242914979757%;
+    float: left;
+}
+
+.gridsearch {
+    width: 100%;
+    text-align: center;
+    //margin: auto;
+}
+
+.gridpage {
+    //width: 19.987854251012145748987854251012%;
+    //width: 20.9%;
+    width: 96%;
+    //width: 89.987854251012145748987854251012%;
+    //height: 420px;
+    background-color: #E8EFC8;//gray;
+    padding-bottom: 20px;
+}
+
+.gridpagination {
+    width: 96%;
+    //margin-bottom: 0;
+    //margin-bottom: 0;
+    text-align: center;
+    background-color: #364949;
+}
+
+@media only screen and (min-width: 460px) {
+    body {
+        //font-family: "Lucida Sans", Verdana, sans-serif;
+        //font-size: 14px;
+        //background-color: lime;
+        font-size: 0.8em;
+    }
+
+    .gridpage {
+        //width: 89.987854251012145748987854251012%;
+        //width: 19.987854251012145748987854251012%;
+        width: 45.9%;
+        height: 450px;
+    }
+
+    .pagination a {
+        padding: 8px 16px;
+        margin: 0 4px;
+        //width: 4px;
+        //height: 15px;
+        font-size: 1em;
+    }
+
+    .page img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    body {
+        //font-family: "Lucida Sans", Verdana, sans-serif;
+        //font-size: 14px;
+        //background-color: pink;
+        font-size: 0.8em;
+    }
+
+
+    .gridpage {
+        //width: 89.987854251012145748987854251012%;
+        //width: 19.987854251012145748987854251012%;
+        width: 29.2%;
+        height: 450px;
+    }
+
+    .pagination a {
+        padding: 8px 16px;
+        margin: 0 4px;
+        //height: 15px;
+        font-size: 1em;
+    }
+
+    .page img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    body {
+        //font-family: "Lucida Sans", Verdana, sans-serif;
+        //font-size: 14px;
+        //background-color: magenta;
+        font-size: 0.8em;
+    }
+
+    .gridpage {
+        //width: 89.987854251012145748987854251012%;
+        //idth: 19.987854251012145748987854251012%;
+        width: 20.9%;
+        height: 450px;
+    }
+
+    .pagination a {
+        padding: 8px 16px;
+        margin: 0 4px;
+        //width: none;
+        //height: 15px;
+        font-size: 1em;
+    }
+
+    .page img {
+        width: 100%;
+    }
+}
